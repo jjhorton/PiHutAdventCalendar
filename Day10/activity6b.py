@@ -4,7 +4,7 @@ import time
 import random
 
 GPIOnumber = 2
-LEDcount = 15
+LEDcount = 15    
 
 ring = NeoPixel(Pin(GPIOnumber), LEDcount)
 
